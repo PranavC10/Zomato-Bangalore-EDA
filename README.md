@@ -33,37 +33,65 @@ of a location.
 • Matplotlib
 • Plotly & Cufflinks
 
-## Data Preparation 
+## Data Description 
 The dataset contains the following Columns:
 
-Name:  Name of the restaurant
+I looked at the differrent different trends  in the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables.
 
-rest_type: Type of restaurant 
 
-online_order : Online order is availble or not for restaurant 
 
-approx_cost(for two people)	: Contains the approximate cost of meal for two
+• Name:  Name of the restaurant
 
-Cuisine Category: Consists of different food categories
+• rest_type: Type of restaurant 
 
-City:  Name of the city the restaurant is located in.
+• online_order : Online order is availble or not for restaurant 
 
-location: Contains the neighbourhood in which the restaurant is located
+• approx_cost(for two people)	: Contains the approximate cost of meal for two
 
-URL: This feature contains the URL of the restaurant on the Zomato website
+• Cuisine Category: Consists of different food categories
 
-Cuisine: Cuisine avalible in Restaurant
+• City:  Name of the city the restaurant is located in.
 
-book_table: Table booking available or not
+• location: Contains the neighbourhood in which the restaurant is located
 
-address : Address of the restaurant
+• URL: This feature contains the URL of the restaurant on the Zomato website
 
-rate: Contains the overall rating of the restaurant out of 5
+• Cuisine: Cuisine avalible in Restaurant
 
-Votes: Contains total number of votes for the restaurant
+• book_table: Table booking available or not
 
-listed_in(type): Type in which restraurant is listed on Zomato
+• address : Address of the restaurant
 
-phone: Contact number of restaurant 
+• rate: Contains the overall rating of the restaurant out of 5
+
+• Votes: Contains total number of votes for the restaurant
+
+• listed_in(type): Type in which restraurant is listed on Zomato
+
+• phone: Contact number of restaurant 
+
+## Data Cleaning 
+I made the following changes and created the following variables:
+
+• Deleted the columns URL, address and phone as they were not important for analysis 
+
+• Removed Duplicate Rows
+
+• Deleted dish_liked Column it was having too many null values
+
+• Renamed the column 'approx_cost(for two people)' :'cost','listed_in(type)':'type','listed_in(city)':'city'
+
+• Cleaned the cost column as it was an object data type.Removed the comma and converted it into the numeric data type
+
+• Cleaned the rate column  and converted it into the numeric data type
+
+## EDA
+
+
+
+
+
+
+
 
 
