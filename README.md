@@ -87,6 +87,24 @@ I made the following changes and created the following variables:
 
 ## EDA
 
+I looked at the different-different trends of the data and  Below is a few highlights of the analysis.
+
+• Largest Food Chain in Bangalore 
+
+• Most Popular Restaurant types in Bangalore
+
+• Expensive Restaurants in Bangalore 
+
+• Ratings by Type of Restaurants
+
+• Restaurants per location
+
+• Best economical Restaurants 
+
+• Best Average cost Restaurants
+
+• Finding best Restaurants by Cost & Location
+
 
 
 
