@@ -36,10 +36,6 @@ of a location.
 ## Data Description 
 The dataset contains the following Columns:
 
-I looked at the differrent different trends  in the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables.
-
-
-
 • Name:  Name of the restaurant
 
 • rest_type: Type of restaurant 
